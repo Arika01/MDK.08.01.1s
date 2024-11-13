@@ -1,0 +1,101 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../pages/works/pr10/fonts/Roboto/Roboto-Regular.ttf");
+}
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    font-size: 24px;
+}
+#pr {
+    font-size: 20px;
+    text-align: center;
+}
+header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+}
+ul li {
+    display: inline-block;
+}
+li {
+    padding: 10px;
+}
+a {
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 150px;
+}
+article {
+    background: rgb(210, 210, 210);
+    margin: 0 auto;
+    padding: 5px 30px;
+    width: 200px;
+    text-align: left;
+}
+.ar {
+    margin: 30px 1.4% 0;
+    width: 1090px;
+    padding-right: 65%;
+    padding-bottom: 20px;
+}
+h3 {
+    color: rgb(255, 158, 12);
+}
+article p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.text {
+    text-align: left;
+    margin-left: 165px;
+}
+div {
+    font-size: 15px;
+}
+span {
+    font-size: 9px;
+    vertical-align: top;
+}
+
+.img1 {
+    src: url("../img/img10/M1.png");
+    width: 190px;
+    height: 150px;
+    background-size: cover;
+    margin: 0;
+}
+.img2 {
+    src: url("../img/img10/M2.png");
+    width: 190px;
+    height: 172px;
+    background-size: cover;
+    margin: 0;
+}
+.img3 {
+    src: url("../img/img10/M3.png");
+    width: 190px;
+    height: 150px;
+    background-size: cover;
+    margin: 0;
+}
+.img4 {
+    src: url("../img/img10/M4.png");
+    width: 190px;
+    height: 129px;
+    background-size: cover;
+    margin: 0;
+}
+article:nth-child(5) {
+    background: linear-gradient(75.91deg, rgb(210, 210, 210) 15.12%, rgb(110, 110, 110) 95.53%), url("../img/img10/M5.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}

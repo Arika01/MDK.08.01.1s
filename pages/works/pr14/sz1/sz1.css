@@ -1,0 +1,37 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #pr {
+    font-size: 20px;
+    text-align: center;
+  }
+  header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+  }
+  header ul li {
+    display: inline-block;
+  }
+  header li {
+    padding: 10px;
+  }
+  a {
+    color: black;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    color: #fff;
+    border: none;
+    background: #00a7cf;
+    transition: 1s;
+    margin: 20px;
+  }
+  button:hover {
+    background: #006680;
+  }

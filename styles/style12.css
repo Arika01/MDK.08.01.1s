@@ -1,0 +1,29 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    font-size: 24px;
+}
+#pr {
+    font-size: 20px;
+    text-align: center;
+}
+header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+}
+header ul li {
+    display: inline-block;
+}
+header li {
+    padding: 10px;
+}
+a {
+    color: black;
+}
+main li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}

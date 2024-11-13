@@ -1,0 +1,44 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #pr {
+    font-size: 20px;
+    text-align: center;
+  }
+  header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+  }
+  header ul li {
+    display: inline-block;
+  }
+  header li {
+    padding: 10px;
+  }
+  a {
+    color: black;
+  }
+
+  .box {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+    margin: 20px;
+    color: #fff;
+    font: 600 24px;
+  }
+  .box:hover {
+    background: #ff7b29;
+  }

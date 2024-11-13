@@ -1,0 +1,177 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+header h1 {
+    font-size: 24px;
+}
+header #pr {
+    font-size: 20px;
+    text-align: center;
+}
+header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+}
+header ul li {
+    display: inline-block;
+}
+header li {
+    padding: 10px;
+}
+header a {
+    color: black;
+}
+
+
+
+main {
+    background: white;
+    width: 640px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    height: 89px;
+    background: rgb(2, 129, 228);
+    display: flex;
+}
+.img1 {
+    background: url("../img/img17/9.png");
+    width: 51px;
+    height: 38px;
+    margin: auto 18px auto 0;
+}
+.menu hr {
+    width: 1;
+    height: 87px;
+    border: solid 1px rgb(43, 149, 232);
+    margin: 0 19px 0 0;
+}
+.menu h1 {
+    color: white;
+    margin: auto;
+    font-size: 50px;
+    font-stretch: condensed;
+    font-weight: 200;
+}
+
+
+.name {
+    display: flex;
+}
+.img_name {
+    background: url("../img/img17/84.png");
+    width: 60px;
+    height: 60px;
+    margin: 34px 0 0 46px;
+}
+.nameDate {
+    margin: 5px 0 0 17px;
+}
+.nameDate h2 {
+    margin-bottom: 5px;
+    font-size: 32px;
+    color: rgb(84, 84, 84);
+    font-weight: 100;
+}
+.nameDate p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+}
+.time {
+    margin: 34px 32px 0 auto;
+    font-size: 30px;
+    color: rgb(106, 168, 216);
+    font-weight: 100;
+}
+
+
+.text {
+    margin: 37px 40px 0 69px;
+    border-left: 13px solid rgb(123, 221, 108);
+}
+.text h3 {
+    padding-left: 25px;
+    color: rgb(132, 132, 132);
+    font-weight: 100;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+.text p {
+    padding-left: 25px;
+    color: rgb(184, 184, 184);
+    line-height: 30px;
+    font-size: 21px;
+    margin: 32px 0 35px;
+}
+
+.zakrep {
+    display: flex;
+}
+.zakrep h3 {
+    margin-top: 7px;
+}
+.skrep {
+    background: url("../img/img17/83.png");
+    width: 28px;
+    height: 29px;
+    background-size: cover;
+    margin: 7px 0 0 25px;
+}
+
+.sfoto1, .sfoto2 {
+    display: flex;
+}
+.photo1 {
+    background: url("../img/img17/81.png");
+    width: 32px;
+    height: 28px;
+    margin: 7px 0 10px 74px ;
+}
+.photo2 {
+    background: url("../img/img17/81.png");
+    width: 32px;
+    height: 28px;
+    margin: 10px 0 7px 74px ;
+}
+.sfoto1 p {
+    margin: 9px 0;
+}
+.sfoto2 p {
+    margin: 13px 0 0;
+}
+
+
+.niz {
+    margin-top: 67px;
+    height: 85px;
+    display: flex;
+}
+.niz h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin: auto 0 28px 15px;
+}
+.svet {
+    background: rgb(86, 87, 90);
+    display: flex;
+}
+.tm {
+    background: rgb(58, 63, 65);
+    width: 232px;
+    display: flex;
+    padding: 30px 0 0 30px;
+}
+
+.sv1 {
+    width: 190px;
+    padding: 27px 0 0 25px;
+}
+.sv2 {
+    width: 218px;
+    padding: 27px 0 0 28px;
+}

@@ -1,0 +1,63 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #pr {
+    font-size: 20px;
+    text-align: center;
+  }
+  header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+  }
+  header ul li {
+    display: inline-block;
+  }
+  header li {
+    padding: 10px;
+  }
+  a {
+    color: black;
+  }
+
+  @keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 244px;
+        top: 100px;
+    }
+    100% {
+        left: 488px;
+        top: 0;
+    }
+  }
+  .stage {
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+  }
+  .stage:hover .ball {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+  }
+  .ball {
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  figure {
+    margin: 0;
+  }

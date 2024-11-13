@@ -1,0 +1,45 @@
+body {
+  background: rgb(216, 227, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;   
+  font: 600 14px; 
+}
+h1 {
+  font-size: 24px;
+}
+#pr {
+  font-size: 20px;
+  text-align: center;
+}
+header, footer {
+  text-align: center;
+  background: rgb(170, 200, 255);
+  padding: 10px;
+}
+header ul li {
+  display: inline-block;
+}
+header li {
+  padding: 10px;
+}
+a {
+  color: black;
+}
+
+.box {   
+    background: #2db34a;   
+    border-radius: 6px;   
+    cursor: pointer;   
+    height: 95px;   
+    line-height: 95px;   
+    text-align: center;   
+    width: 95px; 
+    
+    /*эти свойства реализуют трансформацию:*/
+    transition-property: background;    /*свойство, которое будем менять*/
+    transition-duration: 1s;            /*длительность изменений*/
+    transition-timing-function: linear; /*вид изменений*/   
+} 
+.box:hover { 
+  background: #ff7b29; 
+} 

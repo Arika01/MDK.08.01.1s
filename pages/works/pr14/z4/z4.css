@@ -1,0 +1,62 @@
+body {
+    background: rgb(216, 227, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  h1 {
+    font-size: 24px;
+  }
+  #pr {
+    font-size: 20px;
+    text-align: center;
+  }
+  header, footer {
+    text-align: center;
+    background: rgb(170, 200, 255);
+    padding: 10px;
+  }
+  header ul li {
+    display: inline-block;
+  }
+  header li {
+    padding: 10px;
+  }
+  a {
+    color: black;
+  }
+
+  .box {
+    font: 600 24px;
+  }
+  .card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .card .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
